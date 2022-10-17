@@ -1,4 +1,4 @@
-package com.netwave;
+package netwave;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,7 +22,18 @@ public class TerminalOperationRunner {
 //				  new Product(23, "bread"), new Product(13, "sugar"));
 		
 		// ########### Code interview questions ##########################
-		List<Integer> myList = Arrays.asList(10,15,8,49,25,98, 98,32, 15);
+		int[] list1 = {1, 3, 5, 9, 16, 7, 21};
+		
+		Arrays.sort(list1);
+		System.out.println(
+		Arrays.binarySearch(list1, 9));
+		
+		List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32, 19);
+		
+		List<Integer> myList1 = myList.stream().sorted().collect(Collectors.toList());
+		System.out.println(myList1);
+		System.out.println("binarySearch: " +
+		Collections.binarySearch(myList1, 49));
 		
 		//myList.stream().filter(num -> num%2 ==0).collect(Collectors.toList()).forEach(System.out::println);
 		
