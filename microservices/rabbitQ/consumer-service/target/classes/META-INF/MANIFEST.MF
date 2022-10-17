@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: taoxu
+Build-Jdk: 17.0.3.1
+Implementation-Title: consumer-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.stackroute
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/rabbitmq-solution-source-code/consumer-service
+Created-By: Maven Integration for Eclipse
+
